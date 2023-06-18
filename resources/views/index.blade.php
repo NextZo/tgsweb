@@ -66,7 +66,7 @@
             <div class="slide">
                 <img src="assets/hoddie.png" alt="" />
                 <div class="slide-text">
-                    <h2>Hoddie</h2>
+                    <h2>Hodie</h2>
                     <p>Stylish dan cocok untuk musim dingin.</p>
                 </div>
             </div>
@@ -108,45 +108,37 @@
                 <h3 class="article-title">Product</h3>
                 <div class="project-container">
                     <div class="project">
-                        <img src="assets/desert-rally.png" alt="" width="300px" height="210px" />
+                        <img src="assets/tshirt.png" alt="" width="300px" height="210px" />
                         <h4 class="project-title">
-                            Desert Rally
+                            Kaos Polos
                         </h4>
                         <p class="project-description">
-                            Desert Rally Game is using Scratch
-                            3 as a platform
                         </p>
                     </div>
                     <div class="project">
-                        <img src="assets/memory-game.png" alt="" width="300px" height="210px" />
+                        <img src="assets/shirt.png" alt="" width="300px" height="210px" />
                         <h4 class="project-title">
-                            Memory Game
+                            Kemeja
                         </h4>
                         <p class="project-description">
-                            Memory Game is using Phaser as a
-                            Javascript Framework
                         </p>
                     </div>
                 </div>
                 <div class="project-container">
-                    <div class="project">
-                        <img src="assets/platformer.png" alt="" width="450px" height="210px" />
+                <div class="project">
+                        <img src="assets/suit.png" alt="" width="300px" height="210px" />
                         <h4 class="project-title">
-                            Platformer
+                            Jas
                         </h4>
                         <p class="project-description">
-                            Platformer Game is using Construct
-                            3 as a platform
                         </p>
                     </div>
                     <div class="project">
-                        <img src="assets/florist-shop.png" alt="" width="450px" height="210px" />
+                        <img src="assets/Hoddie.png" alt="" width="300px" height="210px" />
                         <h4 class="project-title">
-                            Flower Shop Website
+                            Hoodie
                         </h4>
                         <p class="project-description">
-                            E-commerce Website for Flowers and
-                            Bouquet Shop
                         </p>
                     </div>
                 </div>
