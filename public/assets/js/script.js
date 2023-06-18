@@ -55,13 +55,6 @@ function changeImageBack(element) {
 }
 
 /* --------------------------- Challenge of Meeting 12 | Change Jumbotron Title ------------------------- */
-function changeTitle(element) {
-  element.innerHTML = "Create Simple Game and Website";
-}
-
-function changeTitleBack(element) {
-  element.innerHTML = "Get Programming Tips Here!";
-}
 
 /* --------------------------- Meeting 14 | Closeable Item ------------------------- */
 //add close button on each list

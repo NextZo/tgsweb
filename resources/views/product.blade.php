@@ -15,8 +15,7 @@
 Dengan desain yang sederhana, kenyamanan, dan kemudahan perawatannya, baju kaos tetap menjadi pilihan yang populer dan mendapatkan tempat istimewa di dalam lemari pakaian banyak orang.
                     </p>
                     <p class="project-link">
-
-                        <a href="">Click Me</a>
+                        <a href="/kaospolos">Click Me</a>
                     </p>
                 </div>
 
@@ -34,7 +33,7 @@ Dengan desain yang sederhana, kenyamanan, dan kemudahan perawatannya, baju kaos 
                     Kemeja adalah pilihan yang populer dalam dunia fashion karena fleksibilitasnya. Mereka cocok untuk berbagai kesempatan, dari acara formal hingga kasual. Dengan desain yang elegan dan variasi gaya yang luas, kemeja tetap menjadi pilihan yang populer di antara banyak orang yang menghargai penampilan yang terorganisir, profesional, dan klasik.
                     </p>
                     <p class="project-link">
-                        <a href="">Click Me</a>
+                        <a href="/kemeja">Click Me</a>
                     </p>
                 </div>
 
@@ -52,7 +51,7 @@ Dengan desain yang sederhana, kenyamanan, dan kemudahan perawatannya, baju kaos 
                     Dengan kenyamanan, gaya kasual, dan fleksibilitasnya, hoodie tetap menjadi pilihan pakaian yang populer di kalangan berbagai kelompok usia. Mereka memberikan kombinasi yang sempurna antara kenyamanan dan gaya, menjadikannya salah satu pilihan yang serbaguna dan populer di dunia fashion.
                     </p>
                     <p class="project-link">
-                        <a href="">Click Me</a>
+                        <a href="/hoodie">Click Me</a>
                     </p>
                 </div>
 
@@ -70,7 +69,7 @@ Dengan desain yang sederhana, kenyamanan, dan kemudahan perawatannya, baju kaos 
                     Jas adalah simbol kesopanan dan kesuksesan dalam dunia fashion formal. Mereka memberikan tampilan yang terhormat dan elegan, dan sering dianggap sebagai pakaian yang wajib dimiliki dalam lemari pakaian untuk berbagai kesempatan formal. Dengan desain yang klasik dan keanggunannya yang abadi, jas tetap menjadi pilihan yang populer bagi mereka yang menghargai penampilan yang berkelas dan berwibawa.
                     </p>
                     <p class="project-link">
-                        <a href="">Click Me</a>
+                        <a href="/jas">Click Me</a>
                     </p>
                 </div>
 
@@ -84,10 +83,10 @@ Dengan desain yang sederhana, kenyamanan, dan kemudahan perawatannya, baju kaos 
                 <div class="project-description">
                     <h3>Sweater</h3>
                     <p>
-                        Desc...
+                    Dengan kenyamanannya, kehangatan, dan gaya kasualnya, sweater tetap menjadi pilihan pakaian yang populer dan serbaguna dalam lemari pakaian banyak orang. Mereka memberikan kombinasi yang sempurna antara fungsi dan gaya, menjadikannya pilihan yang nyaman dan bergaya untuk menyesuaikan berbagai situasi dan gaya pribadi.
                     </p>
                     <p class="project-link">
-                        <a href="">Click Me</a>
+                        <a href="/sweater">Click Me</a>
                     </p>
                 </div>
 

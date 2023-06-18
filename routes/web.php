@@ -28,3 +28,27 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/kaospolos', function () {
+    return view('kaospolos');
+});
+
+Route::get('/kemeja', function () {
+    return view('kemeja');
+});
+
+Route::get('/hoodie', function () {
+    return view('hoodie');
+});
+
+Route::get('/jas', function () {
+    return view('jas');
+});
+
+Route::get('/sweater', function () {
+    return view('sweater');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});

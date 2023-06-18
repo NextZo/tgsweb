@@ -23,8 +23,6 @@
             Hello Guys! <br />
             Welcome to our shop!
         </h1>
-        <img class="astronaut-dabbing" src="assets/astronaut1.png" alt="" />
-        <img class="astronaut-takeoff" src="assets/astronaut2.png" alt="" />
     </div>
 
     <header>
