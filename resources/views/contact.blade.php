@@ -5,9 +5,8 @@
             <img class="illustration-img" src="assets/contact-illustration.png" alt="" width="800px">
         </div>
         <div class="contact">
-            <img class="profile-contact-img" src="assets/profile-contact.png" alt="">
-            <h1>Contact Me</h1>
-            <p>Please feel free to contact me to ask anything you need.</p>
+            <h1>Review</h1>
+            <p>Silahkan lengkapi informasi dibawah ini</p>
             <h4>Your Information</h4>
 
             <form action="https://formsubmit.co/fonzolydio@gmail.com" method="POST">
@@ -20,7 +19,7 @@
                         </div>
                         <div class="form-input">
                             <input class="input-item" type="text" name="name" id="name" placeholder=" ">
-                            <label for="name" class="form-label">Name</label>
+                            <label for="name" class="form-label">Nama</label>
                         </div>
                     </div>
 
@@ -30,7 +29,7 @@
                         </div>
                         <div class="form-input">
                             <input class="input-item" type="text" name="city" id="city" placeholder=" ">
-                            <label for="city" class="form-label">City</label>
+                            <label for="city" class="form-label">Alamat</label>
                         </div>
                     </div>
 
@@ -50,7 +49,7 @@
                         </div>
                         <div class="form-textarea">
                             <textarea class="textarea" type="text" name="message" id="message" cols="52" rows="8" placeholder=" "></textarea>
-                            <label for="message" class="form-label">Message</label>
+                            <label for="message" class="form-label">Pesan</label>
                         </div>
                     </div>
 

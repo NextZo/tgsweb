@@ -32,8 +32,8 @@
                 <a href="/">E-Shop</a>
             </h3>
             <nav>
-                <a href="/product">Product</a>
-                <a href="/contact">Contact</a>
+                <a href="/product">Kategori</a>
+                <a href="/contact">Review</a>
                 <a href="/about">About Us</a>
             </nav>
         </div>
