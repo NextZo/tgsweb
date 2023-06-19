@@ -17,38 +17,52 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/product', function () {
-    return view('product');
+Route::prefix('/kategori')->group(function () {
+    Route::get('/', function () {
+        return view('category');
+    });
+
+    Route::get('/kaos', function () {
+        return view('categories/kaospolos');
+    });
+
+    Route::get('/kemeja', function () {
+        return view('categories/kemeja');
+    });
+
+    Route::get('/hoodie', function () {
+        return view('categories/hoodie');
+    });
+
+    Route::get('/jas', function () {
+        return view('categories/jas');
+    });
+
+    Route::get('/sweater', function () {
+        return view('categories/sweater');
+    });
 });
 
-Route::get('/contact', function () {
+Route::get('/kontak', function () {
     return view('contact');
 });
 
-Route::get('/about', function () {
+Route::get('/tentang', function () {
     return view('about');
 });
 
-Route::get('/kaospolos', function () {
-    return view('kaospolos');
-});
-
-Route::get('/kemeja', function () {
-    return view('kemeja');
-});
-
-Route::get('/hoodie', function () {
-    return view('hoodie');
-});
-
-Route::get('/jas', function () {
-    return view('jas');
-});
-
-Route::get('/sweater', function () {
-    return view('sweater');
-});
-
-Route::get('/login', function () {
+// authentication
+Route::get('/masuk', function () {
     return view('login');
+});
+
+Route::get('/daftar', function () {
+    return view();
+});
+
+// admin
+Route::prefix('/dashboard')->group(function () {
+    Route::get('/', function () {
+        return view('admin/index');
+    });
 });
