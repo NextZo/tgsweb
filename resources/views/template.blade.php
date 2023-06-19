@@ -18,12 +18,12 @@
 </head>
 
 <body style="background-image: url(assets/bg_bggenerator_com.png);background-size: cover;">
-    <div class="splash">
+    {{-- <div class="splash">
         <h1 class="splash-text" data-aos="fade-right" data-aos-duration="200">
             Hello Guys! <br />
             Welcome to our shop!
         </h1>
-    </div>
+    </div> --}}
 
     <header>
         <div class="header">
@@ -32,9 +32,10 @@
                 <a href="/">E-Shop</a>
             </h3>
             <nav>
-                <a href="/product">Kategori</a>
-                <a href="/contact">Review</a>
-                <a href="/about">About Us</a>
+                <a href="/kategori">Kategori</a>
+                <a href="/kontak">Review</a>
+                <a href="/tentang">About Us</a>
+                <a href="/masuk">Masuk</a>
             </nav>
         </div>
     </header>
