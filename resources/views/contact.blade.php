@@ -58,7 +58,6 @@
             </form>
         </div>
     </div>
-
     <div class="modal-container">
         <div class="modal">
             <img src="assets/rocket.png" alt="">
