@@ -632,10 +632,10 @@ footer {
 .blogger-image {
   /* display: block; */
   position: absolute;
-  width: 200px;
+  width: 300px;
   height: auto;
   left: 43%;
-  top: 200px;
+  top: 60px;
 }
 
 .skills-flex {

@@ -7,7 +7,7 @@
         <article id="scratch-project">
             <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/shirt.png" alt="" />
+                    <img src="../assets/polo1.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kemeja 1</h3>
@@ -23,7 +23,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/shirt.png" alt="" />
+                    <img src="../assets/polo2.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kemeja 2</h3>
@@ -39,7 +39,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/shirt.png" alt="" />
+                    <img src="../assets/polo3.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kemeja 3</h3>
@@ -55,7 +55,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/shirt.png" alt="" />
+                    <img src="../assets/polo4.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kemeja 4</h3>
@@ -71,7 +71,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/shirt.png" alt="" />
+                    <img src="../assets/polo5.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kemeja 5</h3>

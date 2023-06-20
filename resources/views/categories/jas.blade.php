@@ -7,7 +7,7 @@
         <article id="scratch-project">
             <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/suit.png" alt="" />
+                    <img src="../assets/jas1.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Jas 1</h3>
@@ -23,7 +23,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/suit.png" alt="" />
+                    <img src="../assets/jas2.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Jas 2</h3>
@@ -39,7 +39,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/suit.png" alt="" />
+                    <img src="../assets/jas3.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Jas 3</h3>
@@ -55,7 +55,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/suit.png" alt="" />
+                    <img src="../assets/jas4.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Jas 4</h3>
@@ -71,7 +71,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/suit.png" alt="" />
+                    <img src="../assets/jas5.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Jas 5</h3>

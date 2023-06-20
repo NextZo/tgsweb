@@ -58,6 +58,48 @@
             </form>
         </div>
     </div>
+    <article id="scratch-project">
+        <div class="project-detail">
+                <div class="project-img">
+                    <img src="#" alt="" />
+                </div>
+                <div class="project-description">
+                    <h3>Nama pengguna</h3>
+                    <p>
+                       REVIEW
+                    </p>
+                </div>
+
+            </div>
+        </article>
+        <article id="scratch-project">
+        <div class="project-detail">
+                <div class="project-img">
+                    <img src="#" alt="" />
+                </div>
+                <div class="project-description">
+                    <h3>Nama pengguna</h3>
+                    <p>
+                       REVIEW
+                    </p>
+                </div>
+
+            </div>
+        </article>
+        <article id="scratch-project">
+        <div class="project-detail">
+                <div class="project-img">
+                    <img src="#" alt="" />
+                </div>
+                <div class="project-description">
+                    <h3>Nama pengguna</h3>
+                    <p>
+                       REVIEW
+                    </p>
+                </div>
+
+            </div>
+        </article>
     <div class="modal-container">
         <div class="modal">
             <img src="assets/rocket.png" alt="">

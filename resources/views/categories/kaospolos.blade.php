@@ -7,7 +7,7 @@
         <article id="scratch-project">
             <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/tshirt.png" alt="" />
+                    <img src="../assets/kaos1.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kaos Polos 1</h3>
@@ -23,7 +23,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/tshirt.png" alt="" />
+                    <img src="../assets/kaos2.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kaos Polos 2</h3>
@@ -39,7 +39,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/tshirt.png" alt="" />
+                    <img src="../assets/kaos3.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kaos Polos 3</h3>
@@ -55,7 +55,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/tshirt.png" alt="" />
+                    <img src="../assets/kaos4.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kaos Polos 4</h3>
@@ -71,7 +71,7 @@
         <article id="scratch-project">
         <div class="project-detail">
                 <div class="project-img">
-                    <img src="assets/tshirt.png" alt="" />
+                    <img src="../assets/kaos5.png" alt="" />
                 </div>
                 <div class="project-description">
                     <h3>Kaos Polos 5</h3>
