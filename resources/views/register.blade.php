@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-	<title>Login V12</title>
+	<title>Register</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -98,10 +98,17 @@
 				<form class="login100-form validate-form">
 
 					<span class="login100-form-title p-t-20 p-b-45">
-						Login
+						Register
 					</span>
 					<div class="wrap-input100 validate-input m-b-10" data-validate="Username is required">
 						<input class="input100" type="text" name="username" placeholder="Username">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user"></i>
+						</span>
+					</div>
+                    <div class="wrap-input100 validate-input m-b-10" data-validate="email is required">
+						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user"></i>
@@ -113,27 +120,11 @@
 						<span class="symbol-input100">
 							<i class="fa fa-lock"></i>
 						</span>
-					</div>
+                    </div>
 					<div class="container-login100-form-btn p-t-10">
 						<button class="login100-form-btn">
-							Login
+							Register
 						</button>
-					</div>
-					<div class="container-login100-form-btn p-t-10">
-						<button class="login100-form-btn">
-						<a href="/register">Resgister</a>
-						</button>
-					</div>
-					<div class="text-center w-full p-t-25 p-b-230">
-						<a href="#" class="txt1">
-							Forgot Username / Password?
-						</a>
-					</div>
-					<div class="text-center w-full">
-						<a class="txt1" href="#">
-							Create new account
-							<i class="fa fa-long-arrow-right"></i>
-						</a>
 					</div>
 				</form>
 			</div>
