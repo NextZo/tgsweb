@@ -47,6 +47,11 @@ Route::get('/kontak', function () {
     return view('contact');
 });
 
+Route::get('/troli', function () {
+    return view('troli');
+});
+
+
 Route::get('/register', function () {
     return view('register');
 });

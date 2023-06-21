@@ -120,9 +120,9 @@
 						</button>
 					</div>
 					<div class="container-login100-form-btn p-t-10">
-						<button class="login100-form-btn">
-						<a href="/register">Resgister</a>
-						</button>
+							<button class="login100-form-btn">
+								<a href="/register">Register</a>
+							</button>
 					</div>
 					<div class="text-center w-full p-t-25 p-b-230">
 						<a href="#" class="txt1">

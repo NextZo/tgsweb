@@ -1,7 +1,7 @@
 @extends('template')
 @section('main')
     <div class="page-title">
-        <h1>Product</h1>
+        <h1>Kategori</h1>
     </div>
     <div class="all-projects">
         <article id="scratch-project">
@@ -16,7 +16,7 @@
                         pilihan yang populer dan mendapatkan tempat istimewa di dalam lemari pakaian banyak orang.
                     </p>
                     <p class="project-link">
-                        <a href="/kategori/kaos">Click Me</a>
+                        <a href="/kategori/kaos">Lihat produk</a>
                     </p>
                 </div>
 
@@ -37,7 +37,7 @@
                         penampilan yang terorganisir, profesional, dan klasik.
                     </p>
                     <p class="project-link">
-                        <a href="/kategori/kemeja">Click Me</a>
+                        <a href="/kategori/kemeja">Lihat produk</a>
                     </p>
                 </div>
 
@@ -57,7 +57,7 @@
                         kenyamanan dan gaya, menjadikannya salah satu pilihan yang serbaguna dan populer di dunia fashion.
                     </p>
                     <p class="project-link">
-                        <a href="/kategori/hoodie">Click Me</a>
+                        <a href="/kategori/hoodie">Lihat produk</a>
                     </p>
                 </div>
 
@@ -79,7 +79,7 @@
                         berwibawa.
                     </p>
                     <p class="project-link">
-                        <a href="/kategori/jas">Click Me</a>
+                        <a href="/kategori/jas">Lihat produk</a>
                     </p>
                 </div>
 
@@ -99,7 +99,7 @@
                         situasi dan gaya pribadi.
                     </p>
                     <p class="project-link">
-                        <a href="/kategori/sweater">Click Me</a>
+                        <a href="/kategori/sweater">Lihat produk</a>
                     </p>
                 </div>
 

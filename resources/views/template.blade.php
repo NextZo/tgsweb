@@ -32,6 +32,9 @@
                 <a href="/">E-Shop</a>
             </h3>
             <nav>
+                <a href="/troli">
+                    <img src="assets/cart.png" alt="" />
+                </a>
                 <a href="/kategori">Kategori</a>
                 <a href="/kontak">Review</a>
                 <a href="/tentang">About Us</a>
