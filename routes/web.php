@@ -45,8 +45,13 @@ Route::middleware('auth')->group(function () {
             return view('categories/kemeja');
         });
 
+
         Route::get('/hoodie', function () {
             return view('categories/hoodie');
+        });
+
+        Route::get('/troli', function () {
+            return view('troli');
         });
 
         Route::get('/jas', function () {

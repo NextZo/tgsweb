@@ -1,7 +1,7 @@
 @extends('template')
 @section('main')
     <div class="page-title">
-        <h1>Product</h1>
+        <h1>Kategori</h1>
     </div>
     <div class="all-projects">
         <article id="scratch-project">
@@ -82,7 +82,6 @@
                         <a href="/kategori/jas">Lihat Produk</a>
                     </p>
                 </div>
-
             </div>
         </article>
         <article id="scratch-project">
