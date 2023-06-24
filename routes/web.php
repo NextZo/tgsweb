@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ControllerHandler;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,61 +18,59 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::prefix('/kategori')->group(function () {
-    Route::get('/', function () {
-        return view('category');
-    });
-
-    Route::get('/kaos', function () {
-        return view('categories/kaospolos');
-    });
-
-    Route::get('/kemeja', function () {
-        return view('categories/kemeja');
-    });
-
-    Route::get('/hoodie', function () {
-        return view('categories/hoodie');
-    });
-
-    Route::get('/jas', function () {
-        return view('categories/jas');
-    });
-
-    Route::get('/sweater', function () {
-        return view('categories/sweater');
-    });
-});
-
-Route::get('/kontak', function () {
-    return view('contact');
-});
-
-Route::get('/troli', function () {
-    return view('troli');
-});
-
-
-Route::get('/register', function () {
-    return view('register');
-});
-
 Route::get('/tentang', function () {
     return view('about');
 });
 
 // authentication
-Route::get('/masuk', function () {
-    return view('login');
-});
+Route::get('/masuk', [ControllerHandler::class, 'getLogin'])->name('login');
+Route::post('/masuk', [ControllerHandler::class, 'postLogin']);
 
-Route::get('/daftar', function () {
-    return view();
-});
+Route::get('/daftar', [ControllerHandler::class, 'getRegister']);
+Route::post('/daftar', [ControllerHandler::class, 'postRegister']);
 
-// admin
-Route::prefix('/dashboard')->group(function () {
-    Route::get('/', function () {
-        return view('admin/index');
+Route::get('/logout', [ControllerHandler::class, 'logout']);
+
+Route::middleware('auth')->group(function () {
+    Route::prefix('/kategori')->group(function () {
+        Route::get('/', function () {
+            return view('category');
+        });
+
+        Route::get('/kaos', function () {
+            return view('categories/kaospolos');
+        });
+
+        Route::get('/kemeja', function () {
+            return view('categories/kemeja');
+        });
+
+
+        Route::get('/hoodie', function () {
+            return view('categories/hoodie');
+        });
+
+        Route::get('/troli', function () {
+            return view('troli');
+        });
+
+        Route::get('/jas', function () {
+            return view('categories/jas');
+        });
+
+        Route::get('/sweater', function () {
+            return view('categories/sweater');
+        });
+    });
+
+    Route::get('/ulasan', function () {
+        return view('review');
+    });
+
+    // admin
+    Route::prefix('/dashboard')->group(function () {
+        Route::get('/', function () {
+            return view('admin/index');
+        });
     });
 });

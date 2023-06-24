@@ -1,177 +1,168 @@
-@font-face {
-    font-family: Montserrat-Regular;
-    src: url(../fonts/montserrat/Montserrat-Regular.ttf)
-}
-
-@font-face {
-    font-family: Montserrat-ExtraBold;
-    src: url(../fonts/montserrat/Montserrat-ExtraBold.ttf)
-}
-
-@font-face {
-    font-family: Montserrat-Bold;
-    src: url(../fonts/montserrat/Montserrat-Bold.ttf)
-}
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
 }
 
-body,html {
+body,
+html {
     height: 100%;
-    font-family: Montserrat-Regular,sans-serif
 }
 
 a {
-    font-family: Montserrat-Regular;
     font-size: 14px;
     line-height: 1.7;
     color: #666;
     margin: 0;
-    transition: all .4s;
-    -webkit-transition: all .4s;
-    -o-transition: all .4s;
-    -moz-transition: all .4s
+    transition: all 0.4s;
+    text-decoration: none;
 }
 
 a:focus {
-    outline: none!important
+    outline: none !important;
 }
 
 a:hover {
     text-decoration: none;
-    color: #fff
+    color: #fff;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    margin: 0
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 
 p {
-    font-family: Montserrat-Regular;
     font-size: 14px;
     line-height: 1.7;
     color: #666;
-    margin: 0
+    margin: 0;
 }
 
-ul,li {
+ul,
+li {
     margin: 0;
-    list-style-type: none
+    list-style-type: none;
 }
 
 input {
     outline: none;
-    border: none
+    border: none;
 }
 
 textarea {
     outline: none;
-    border: none
+    border: none;
 }
 
-textarea:focus,input:focus {
-    border-color: transparent!important
+textarea:focus,
+input:focus {
+    border-color: transparent !important;
 }
 
 input:focus::-webkit-input-placeholder {
-    color: transparent
+    color: transparent;
 }
 
 input:focus:-moz-placeholder {
-    color: transparent
+    color: transparent;
 }
 
 input:focus::-moz-placeholder {
-    color: transparent
+    color: transparent;
 }
 
 input:focus:-ms-input-placeholder {
-    color: transparent
+    color: transparent;
 }
 
 textarea:focus::-webkit-input-placeholder {
-    color: transparent
+    color: transparent;
 }
 
 textarea:focus:-moz-placeholder {
-    color: transparent
+    color: transparent;
 }
 
 textarea:focus::-moz-placeholder {
-    color: transparent
+    color: transparent;
 }
 
 textarea:focus:-ms-input-placeholder {
-    color: transparent
+    color: transparent;
 }
 
 input::-webkit-input-placeholder {
-    color: #999
+    color: #999;
 }
 
 input:-moz-placeholder {
-    color: #999
+    color: #999;
 }
 
 input::-moz-placeholder {
-    color: #999
+    color: #999;
 }
 
 input:-ms-input-placeholder {
-    color: #999
+    color: #999;
 }
 
 textarea::-webkit-input-placeholder {
-    color: #999
+    color: #999;
 }
 
 textarea:-moz-placeholder {
-    color: #999
+    color: #999;
 }
 
 textarea::-moz-placeholder {
-    color: #999
+    color: #999;
 }
 
 textarea:-ms-input-placeholder {
-    color: #999
+    color: #999;
 }
 
 button {
-    outline: none!important;
+    outline: none !important;
     border: none;
-    background: 0 0
+    background: 0 0;
 }
 
 button:hover {
-    cursor: pointer
+    cursor: pointer;
 }
 
 iframe {
-    border: none!important
+    border: none !important;
 }
 
 .txt1 {
-    font-family: Montserrat-Regular;
     font-size: 16px;
     color: #ccc;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 .bo1 {
-    border-bottom: 1px solid #999
+    border-bottom: 1px solid #999;
 }
 
 .hov1:hover {
-    border-color: #d33f8d
+    border-color: #d33f8d;
 }
 
 .limiter {
     width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .container-login100 {
@@ -190,7 +181,7 @@ iframe {
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: 1
+    z-index: 1;
 }
 
 .container-login100::before {
@@ -203,16 +194,16 @@ iframe {
     top: 0;
     left: 0;
     background: #005bea;
-    background: -webkit-linear-gradient(bottom,#005bea,#00c6fb);
-    background: -o-linear-gradient(bottom,#005bea,#00c6fb);
-    background: -moz-linear-gradient(bottom,#005bea,#00c6fb);
-    background: linear-gradient(bottom,#005bea,#00c6fb);
-    opacity: .9
+    background: -webkit-linear-gradient(bottom, #005bea, #00c6fb);
+    background: -o-linear-gradient(bottom, #005bea, #00c6fb);
+    background: -moz-linear-gradient(bottom, #005bea, #00c6fb);
+    background: linear-gradient(bottom, #005bea, #00c6fb);
+    opacity: 0.9;
 }
 
 .wrap-login100 {
     width: 390px;
-    background: 0 0
+    background: 0 0;
 }
 
 .login100-form {
@@ -223,17 +214,16 @@ iframe {
     display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .login100-form-title {
-    font-family: Montserrat-ExtraBold;
     font-size: 24px;
     color: #fff;
     line-height: 1.2;
     text-align: center;
     width: 100%;
-    display: block
+    display: block;
 }
 
 .login100-form-avatar {
@@ -241,21 +231,20 @@ iframe {
     height: 120px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .login100-form-avatar img {
-    width: 100%
+    width: 100%;
 }
 
 .wrap-input100 {
     position: relative;
     width: 100%;
-    z-index: 1
+    z-index: 1;
 }
 
 .input100 {
-    font-family: Montserrat-Bold;
     font-size: 15px;
     line-height: 1.2;
     color: #333;
@@ -264,7 +253,7 @@ iframe {
     background: #fff;
     height: 50px;
     border-radius: 25px;
-    padding: 0 30px 0 53px
+    padding: 0 30px 0 53px;
 }
 
 .focus-input100 {
@@ -277,25 +266,25 @@ iframe {
     width: 100%;
     height: 100%;
     box-shadow: 0 0;
-    color: rgba(0,91,234,.6)
+    color: rgba(0, 91, 234, 0.6);
 }
 
-.input100:focus+.focus-input100 {
-    -webkit-animation: anim-shadow .5s ease-in-out forwards;
-    animation: anim-shadow .5s ease-in-out forwards
+.input100:focus + .focus-input100 {
+    -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+    animation: anim-shadow 0.5s ease-in-out forwards;
 }
 
 @-webkit-keyframes anim-shadow {
     to {
         box-shadow: 0 0 80px 30px;
-        opacity: 0
+        opacity: 0;
     }
 }
 
 @keyframes anim-shadow {
     to {
         box-shadow: 0 0 80px 30px;
-        opacity: 0
+        opacity: 0;
     }
 }
 
@@ -316,15 +305,15 @@ iframe {
     height: 100%;
     padding-left: 30px;
     pointer-events: none;
-    -webkit-transition: all .4s;
-    -o-transition: all .4s;
-    -moz-transition: all .4s;
-    transition: all .4s
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
-.input100:focus+.focus-input100+.symbol-input100 {
+.input100:focus + .focus-input100 + .symbol-input100 {
     color: #00c6fb;
-    padding-left: 23px
+    padding-left: 23px;
 }
 
 .container-login100-form-btn {
@@ -335,11 +324,10 @@ iframe {
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
 }
 
 .login100-form-btn {
-    font-family: Montserrat-Bold;
     font-size: 15px;
     line-height: 1.5;
     color: #e0e0e0;
@@ -355,12 +343,12 @@ iframe {
     justify-content: center;
     align-items: center;
     padding: 0 25px;
-    -webkit-transition: all .4s;
-    -o-transition: all .4s;
-    -moz-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
     position: relative;
-    z-index: 1
+    z-index: 1;
 }
 
 .login100-form-btn::before {
@@ -374,27 +362,28 @@ iframe {
     top: 0;
     left: 0;
     background: #005bea;
-    background: -webkit-linear-gradient(left,#005bea,#00c6fb);
-    background: -o-linear-gradient(left,#005bea,#00c6fb);
-    background: -moz-linear-gradient(left,#005bea,#00c6fb);
-    background: linear-gradient(left,#005bea,#00c6fb);
-    -webkit-transition: all .4s;
-    -o-transition: all .4s;
-    -moz-transition: all .4s;
-    transition: all .4s;
-    opacity: 0
+    background: -webkit-linear-gradient(left, #005bea, #00c6fb);
+    background: -o-linear-gradient(left, #005bea, #00c6fb);
+    background: -moz-linear-gradient(left, #005bea, #00c6fb);
+    background: linear-gradient(left, #005bea, #00c6fb);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0;
 }
 
 .login100-form-btn:hover {
     background: 0 0;
-    color: #fff
+    color: #fff;
 }
 
 .login100-form-btn:hover:before {
-    opacity: 1
+    opacity: 1;
 }
 
-.btn-face,.btn-google {
+.btn-face,
+.btn-google {
     font-family: Raleway-Bold;
     font-size: 16px;
     line-height: 1.2;
@@ -405,43 +394,44 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc((100% - 10px)/2);
+    width: calc((100% - 10px) / 2);
     height: 40px;
     border-radius: 3px;
     border: 1px solid #e6e6e6;
     background-color: #fff;
-    -webkit-transition: all .4s;
-    -o-transition: all .4s;
-    -moz-transition: all .4s;
-    transition: all .4s
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .btn-face {
-    color: #3b5998
+    color: #3b5998;
 }
 
 .btn-face i {
     font-size: 20px;
     margin-right: 10px;
-    padding-bottom: 1px
+    padding-bottom: 1px;
 }
 
 .btn-google {
-    color: #555
+    color: #555;
 }
 
 .btn-google img {
     width: 19px;
     margin-right: 10px;
-    padding-bottom: 1px
+    padding-bottom: 1px;
 }
 
-.btn-face:hover,.btn-google:hover {
-    border-color: #d33f8d
+.btn-face:hover,
+.btn-google:hover {
+    border-color: #d33f8d;
 }
 
 .validate-input {
-    position: relative
+    position: relative;
 }
 
 .alert-validate::before {
@@ -460,17 +450,17 @@ iframe {
     transform: translateY(-50%);
     right: 8px;
     pointer-events: none;
-    font-family: Montserrat-Bold;
+
     color: #c80000;
     font-size: 13px;
     line-height: 1.4;
     text-align: left;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: opacity .4s;
-    -o-transition: opacity .4s;
-    -moz-transition: opacity .4s;
-    transition: opacity .4s
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
 }
 
 .alert-validate::after {
@@ -486,25 +476,25 @@ iframe {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    right: 13px
+    right: 13px;
 }
 
 .alert-validate:hover:before {
     visibility: visible;
-    opacity: 1
+    opacity: 1;
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
     .alert-validate::before {
-        visibility:visible;
-        opacity: 1
+        visibility: visible;
+        opacity: 1;
     }
 }
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
     .wrap-login100 {
-        padding-top:80px;
+        padding-top: 80px;
         padding-left: 15px;
-        padding-right: 15px
+        padding-right: 15px;
     }
 }

@@ -36,9 +36,14 @@
                     <img src="assets/cart.png" alt="" />
                 </a>
                 <a href="/kategori">Kategori</a>
-                <a href="/kontak">Review</a>
+                {{-- <a href="/ulasan">Review</a> --}}
                 <a href="/tentang">About Us</a>
-                <a href="/masuk">Masuk</a>
+                @if (Auth::check())
+                    <a href="/dashboard">Dashboard</a>
+                    <a href="/logout">Keluar</a>
+                @else
+                    <a href="/masuk">Masuk</a>
+                @endif
             </nav>
         </div>
     </header>
