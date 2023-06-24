@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ControllerHandler;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -63,9 +65,8 @@ Route::middleware('auth')->group(function () {
     });
 
     // admin
+
     Route::prefix('/dashboard')->group(function () {
-        Route::get('/', function () {
-            return view('admin/index');
-        });
+        Route::get('/', [AdminController::class, 'index'])->can('isAdmin', Auth::user());
     });
 });
