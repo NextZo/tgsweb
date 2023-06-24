@@ -243,6 +243,7 @@ input {
 }
 
 article {
+    position: relative;
     max-width: 100%;
 }
 
@@ -389,6 +390,86 @@ footer {
 
 .button:hover {
     cursor: pointer;
+}
+
+.keranjang {
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e76f51; 
+    padding: 15px;
+    font-size: 15px;
+}
+
+.size {
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    margin-right: 495px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e76f51; 
+    padding: 15px;
+    font-size: 15px; 
+    
+}
+.sizeM {
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    margin-right: 430px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e76f51; 
+    padding: 15px;
+    font-size: 15px; 
+}
+.sizeL {
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    margin-right:   370px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e76f51; 
+    padding: 15px;
+    font-size: 15px; 
+}
+.sizeXL {
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e76f51; 
+    padding: 15px;
+    font-size: 15px; 
+}
+
+.size:active {
+    cursor: pointer;
+    background-color:rgb(38, 70, 83); 
+}
+.sizeM:active {
+    cursor: pointer;
+    background-color:rgb(38, 70, 83); 
+}
+.sizeL:active {
+    cursor: pointer;
+    background-color:rgb(38, 70, 83); 
+}
+.sizeXL:active {
+    cursor: pointer;
+    background-color:rgb(38, 70, 83); 
 }
 
 .green {

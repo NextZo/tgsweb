@@ -24,6 +24,10 @@ Route::get('/tentang', function () {
     return view('about');
 });
 
+Route::get('/troli', function () {
+    return view('troli');
+});
+
 // authentication
 Route::get('/masuk', [ControllerHandler::class, 'getLogin'])->name('login');
 Route::post('/masuk', [ControllerHandler::class, 'postLogin']);
@@ -47,9 +51,11 @@ Route::middleware('auth')->group(function () {
             return view('categories/kemeja');
         });
 
+
         Route::get('/hoodie', function () {
             return view('categories/hoodie');
         });
+
 
         Route::get('/jas', function () {
             return view('categories/jas');
