@@ -17,6 +17,13 @@
                         Bahan : <br/>
                     </p>
                 </div>
+                <div>
+                <button class="size">S</button>
+                <button class="sizeM">M</button>
+                <button class="sizeL">L</button>
+                <button class="sizeXL">XL</button>
+            </div>
+                <button class="keranjang">Tambahkan ke keranjang!</button>
             </div>
         </article>
 
@@ -33,6 +40,13 @@
                         Bahan : <br/>
                     </p>
                 </div>
+                <div>
+                <button class="size">S</button>
+                <button class="sizeM">M</button>
+                <button class="sizeL">L</button>
+                <button class="sizeXL">XL</button>
+            </div>
+                <button class="keranjang">Tambahkan ke keranjang!</button>
             </div>
         </article>
 
@@ -49,6 +63,13 @@
                         Bahan : <br/>
                     </p>
                 </div>
+                <div>
+                <button class="size">S</button>
+                <button class="sizeM">M</button>
+                <button class="sizeL">L</button>
+                <button class="sizeXL">XL</button>
+            </div>
+                <button class="keranjang">Tambahkan ke keranjang!</button>
             </div>
         </article>
 
@@ -65,7 +86,13 @@
                         Bahan : <br/>
                     </p>
                 </div>
-
+                <div>
+                <button class="size">S</button>
+                <button class="sizeM">M</button>
+                <button class="sizeL">L</button>
+                <button class="sizeXL">XL</button>
+            </div>
+                <button class="keranjang">Tambahkan ke keranjang!</button>
             </div>
         </article>
         <article id="scratch-project">
@@ -81,6 +108,13 @@
                         Bahan : <br/>
                     </p>
                 </div>
+                <div>
+                <button class="size">S</button>
+                <button class="sizeM">M</button>
+                <button class="sizeL">L</button>
+                <button class="sizeXL">XL</button>
+            </div>
+                <button class="keranjang">Tambahkan ke keranjang!</button>
             </div>
         </article>
     </div>
