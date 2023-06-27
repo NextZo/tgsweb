@@ -31,7 +31,14 @@
                     </label>
                     <div class="mt-2">
                         <input type="text" id="username" name="username" required
-                            class="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 ">
+                            class="
+                            block w-full px-4 rounded-md py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 outline-none
+                            @error('username') ring-red-600 @enderror
+                            "
+                            value="{{ old('username') }}">
+                        @error('username')
+                            <span class="text-sm text-red-600">{{ $message }}</span>
+                        @enderror
                     </div>
                 </div>
 
@@ -41,7 +48,14 @@
                     </label>
                     <div class="mt-2">
                         <input type="email" id="email" name="email" autocomplete="email" required
-                            class="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 ">
+                            class="
+                            block w-full px-4 rounded-md py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 outline-none
+                            @error('email') ring-red-600 @enderror
+                            "
+                            value="{{ old('email') }}">
+                        @error('email')
+                            <span class="text-sm text-red-600">{{ $message }}</span>
+                        @enderror
                     </div>
                 </div>
 
@@ -51,7 +65,12 @@
                     </div>
                     <div class="mt-2">
                         <input type="password" id="password" name="password" required
-                            class="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 ">
+                            class="
+                            block w-full px-4 rounded-md py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 outline-none
+                            @error('password') ring-red-600 @enderror">
+                        @error('password')
+                            <span class="text-sm text-red-600">{{ $message }}</span>
+                        @enderror
                     </div>
                 </div>
 

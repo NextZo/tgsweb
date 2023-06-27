@@ -74,5 +74,9 @@ Route::middleware('auth')->group(function () {
 
     Route::prefix('/dashboard')->group(function () {
         Route::get('/', [AdminController::class, 'index'])->can('isAdmin', Auth::user());
+        Route::get('/users', [AdminController::class, 'users'])->can('isAdmin', Auth::user());
+        Route::get('/users/{user:username}', [AdminController::class, 'user'])->can('isAdmin', Auth::user());
+        Route::post('/users/{user:username}', [AdminController::class, 'postUser'])->can('isAdmin', Auth::user());
+        Route::get('/users/delete/{user:username}', [AdminController::class, 'deleteUser'])->can('isAdmin', Auth::user());
     });
 });

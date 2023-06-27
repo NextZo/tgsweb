@@ -16,6 +16,12 @@ class ControllerHandler extends Controller
 
     public function postRegister(Request $request)
     {
+        $validated = $request->validate([
+            'username' => 'required|unique:users,username',
+            'email' => 'required|unique:users,email',
+            'password' => 'required|min:8'
+        ]);
+
         $user = new User();
         $user->username = $request->username;
         $user->email = $request->email;

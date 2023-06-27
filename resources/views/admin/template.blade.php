@@ -15,6 +15,8 @@
 
     <link href={{ asset('assets/css/sb-admin-2.min.css') }} rel="stylesheet">
 
+    {{-- datatables --}}
+    <link href={{ asset('assets/css/dataTables.bootstrap4.min.css') }} rel="stylesheet" type="text/css">
 </head>
 
 <body id="page-top">
@@ -28,10 +30,11 @@
             </a>
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+            <li class="nav-item {{ Request::url() === url('dashboard') ? 'active' : '' }}">
+                <a class="nav-link" href="/dashboard">
                     <i class='bx bxs-dashboard'></i>
-                    <span>Dashboard</span></a>
+                    <span>Dashboard</span>
+                </a>
             </li>
 
             <hr class="sidebar-divider"> <!-- Divider -->
@@ -41,7 +44,7 @@
                 Users
             </div>
 
-            <li class="nav-item">
+            <li class="nav-item {{ Request::url() === url('dashboard/users') ? 'active' : '' }}">
                 <a class="nav-link" href="/dashboard/users">
                     <i class='bx bxs-group'></i>
                     <span>Daftar Pengguna</span>
@@ -57,15 +60,15 @@
                 Pakaian
             </div>
 
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+            <li class="nav-item {{ Request::url() === url('dashboard/clothes') ? 'active' : '' }}">
+                <a class="nav-link" href="/dashboard/clothes">
                     <i class='bx bxs-t-shirt'></i>
                     <span>Daftar Pakaian</span>
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+            <li class="nav-item {{ Request::url() === url('dashboard/reviews') ? 'active' : '' }}">
+                <a class="nav-link" href="/dashboard/reviews">
                     <i class='bx bxs-star'></i>
                     <span>Daftar Reviews</span>
                 </a>
@@ -171,8 +174,15 @@
 
     <!-- Custom scripts for all pages-->
     <script src={{ asset('assets/js/sb-admin-2.min.js') }}></script>
-    <script src={{ asset('assets/js/vendor/fontawesome-free//js/all.min.js') }}></script>
+    <script src={{ asset('assets/js/vendor/fontawesome-free/js/all.min.js') }}></script>
     <script src={{ asset('assets/js/vendor/datatables/jquery.dataTables.min.js') }}></script>
+    <script src={{ asset('assets/js/vendor/datatables/dataTables.bootstrap4.min.js') }}></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#usersTable').DataTable();
+        });
+    </script>
 
 </body>
 
