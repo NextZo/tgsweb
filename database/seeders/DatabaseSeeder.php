@@ -16,13 +16,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
-
         DB::table('users')->insert([
             'username' => 'admin',
             'email' => 'admin@opera.com',
@@ -30,5 +23,55 @@ class DatabaseSeeder extends Seeder
             'role' => 'ROLE_ADMIN',
             'created_at' => Carbon::now()
         ]);
+
+        // kaos
+        for ($i = 1; $i <= 5; $i++) {
+            DB::table('products')->insert([
+                'nama' => 'Kaos Polos ' . $i,
+                'harga' => '99000',
+                'kategori' => 'kaos',
+                'created_at' => Carbon::now()
+            ]);
+        }
+
+        // kemeja
+        for ($i = 1; $i <= 5; $i++) {
+            DB::table('products')->insert([
+                'nama' => 'Kemeja ' . $i,
+                'harga' => '199000',
+                'kategori' => 'kemeja',
+                'created_at' => Carbon::now()
+            ]);
+        }
+
+        // hoodie
+        for ($i = 1; $i <= 5; $i++) {
+            DB::table('products')->insert([
+                'nama' => 'Hoodie ' . $i,
+                'harga' => '929000',
+                'kategori' => 'hoodie',
+                'created_at' => Carbon::now()
+            ]);
+        }
+
+        // jas
+        for ($i = 1; $i <= 5; $i++) {
+            DB::table('products')->insert([
+                'nama' => 'Jas ' . $i,
+                'harga' => '994000',
+                'kategori' => 'jas',
+                'created_at' => Carbon::now()
+            ]);
+        }
+
+        // sweater
+        for ($i = 1; $i <= 5; $i++) {
+            DB::table('products')->insert([
+                'nama' => 'Sweater ' . $i,
+                'harga' => '12000',
+                'kategori' => 'sweater',
+                'created_at' => Carbon::now()
+            ]);
+        }
     }
 }

@@ -13,10 +13,15 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('alamat');
-            $table->string('email');
-            $table->text('pesan');
+            $table->string('nama');
+            $table->string('harga');
+            $table->string('bahan')->nullable(true);
+            $table->string('kategori');
+            $table->boolean('s')->default(0);
+            $table->boolean('m')->default(0);
+            $table->boolean('l')->default(0);
+            $table->boolean('xl')->default(0);
+            $table->boolean('gambar')->nullable(true);
             $table->timestamps();
         });
     }
