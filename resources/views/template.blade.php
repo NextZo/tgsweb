@@ -13,23 +13,40 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>E-Shop</title>
 </head>
 
-<body style="background-image: url(assets/bg_bggenerator_com.png);background-size: cover;">
-    <header>
+<body>
+    <nav>
+        <a href="/" class="text-white font-bold text-xl">E-Shop</a>
+        <div class="px-6 flex gap-6 text-white">
+            <a href="/kategori">Kategori</a>
+            {{-- <a href="/ulasan">Review</a> --}}
+            <a href="/tentang">About Us</a>
+            @if (Auth::check())
+                @can('isAdmin', Auth::user())
+                    <a href="/dashboard">Dashboard</a>
+                @endcan
+                <a href="/troli">Keranjang</a>
+                <a href="/logout">Keluar</a>
+            @else
+                <a href="/masuk">Masuk</a>
+            @endif
+        </div>
+    </nav>
+    {{-- <header>
         <div class="header">
             <img class="header-icon" src="assets/header-icon.png" alt="" />
             <h3 class="title">
                 <a href="/">E-Shop</a>
             </h3>
-            <nav>
+            <nav class="px-6 flex gap-6 text-white">
                 <a href="/troli">
                     <img src="assets/cart.png" alt="" />
                 </a>
                 <a href="/kategori">Kategori</a>
-                {{-- <a href="/ulasan">Review</a> --}}
+                <a href="/ulasan">Review</a>
                 <a href="/tentang">About Us</a>
                 @if (Auth::check())
                     @can('isAdmin', Auth::user())
@@ -41,7 +58,7 @@
                 @endif
             </nav>
         </div>
-    </header>
+    </header> --}}
     <main>
         @yield('main')
     </main>

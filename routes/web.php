@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ControllerHandler;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -43,27 +44,11 @@ Route::middleware('auth')->group(function () {
             return view('category');
         });
 
-        Route::get('/kaos', function () {
-            return view('categories/kaospolos');
-        });
-
-        Route::get('/kemeja', function () {
-            return view('categories/kemeja');
-        });
-
-
-        Route::get('/hoodie', function () {
-            return view('categories/hoodie');
-        });
-
-
-        Route::get('/jas', function () {
-            return view('categories/jas');
-        });
-
-        Route::get('/sweater', function () {
-            return view('categories/sweater');
-        });
+        Route::get('/kaos', [UserController::class, 'kaos']);
+        Route::get('/kemeja', [UserController::class, 'kemeja']);
+        Route::get('/hoodie', [UserController::class, 'hoodie']);
+        Route::get('/jas', [UserController::class, 'jas']);
+        Route::get('/sweater', [UserController::class, 'sweater']);
     });
 
     Route::get('/ulasan', function () {
@@ -74,9 +59,17 @@ Route::middleware('auth')->group(function () {
 
     Route::prefix('/dashboard')->group(function () {
         Route::get('/', [AdminController::class, 'index'])->can('isAdmin', Auth::user());
+
+        // users
         Route::get('/users', [AdminController::class, 'users'])->can('isAdmin', Auth::user());
         Route::get('/users/{user:username}', [AdminController::class, 'user'])->can('isAdmin', Auth::user());
         Route::post('/users/{user:username}', [AdminController::class, 'postUser'])->can('isAdmin', Auth::user());
         Route::get('/users/delete/{user:username}', [AdminController::class, 'deleteUser'])->can('isAdmin', Auth::user());
+
+        // clothes
+        Route::get('/clothes', [AdminController::class, 'clothes'])->can('isAdmin', Auth::user());
+        Route::get('/clothes/{product:id}', [AdminController::class, 'getClothes'])->can('isAdmin', Auth::user());
+        Route::post('/clothes/{product:id}', [AdminController::class, 'updateClothes'])->can('isAdmin', Auth::user());
+        Route::get('/clothes/delete/{product:id}', [AdminController::class, 'deleteClothes'])->can('isAdmin', Auth::user());
     });
 });

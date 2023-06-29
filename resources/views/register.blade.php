@@ -35,7 +35,7 @@
                             block w-full px-4 rounded-md py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 outline-none
                             @error('username') ring-red-600 @enderror
                             "
-                            value="{{ old('username') }}">
+                            value="{{ old('username') }}" tabindex="1">
                         @error('username')
                             <span class="text-sm text-red-600">{{ $message }}</span>
                         @enderror
@@ -52,7 +52,7 @@
                             block w-full px-4 rounded-md py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 outline-none
                             @error('email') ring-red-600 @enderror
                             "
-                            value="{{ old('email') }}">
+                            value="{{ old('email') }}" tabindex="2">
                         @error('email')
                             <span class="text-sm text-red-600">{{ $message }}</span>
                         @enderror

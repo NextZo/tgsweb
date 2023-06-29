@@ -64,7 +64,8 @@
                     </label>
                     <div class="mt-2">
                         <input type="text" id="username" name="username" required
-                            class="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 ">
+                            class="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300"
+                            tabindex="1">
                     </div>
                 </div>
 
@@ -78,7 +79,8 @@
                     </div>
                     <div class="mt-2">
                         <input type="password" id="password" name="password" required
-                            class="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 ">
+                            class="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300"
+                            tabindex="2">
                     </div>
                 </div>
 

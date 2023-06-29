@@ -12,8 +12,7 @@ body {
 }
 
 main {
-    /* costumize with the header's height */
-    margin-top: 40px;
+    margin-top: 8rem;
 }
 
 /* ---------------------------------- Navigation ---------------------------------- */
@@ -44,18 +43,16 @@ main {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
+    top: 0;
     right: 0;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
+    left: 0;
+    background-color: #2563eb;
+    padding: 1.2rem 2rem;
+    z-index: 1000;
 
-a {
-    color: rgb(244, 162, 97);
-    text-decoration: none;
-    padding: 10px;
-    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ---------------------------------- Jumbotron ---------------------------------- */
@@ -124,17 +121,6 @@ a {
 .fa-hand-point-down {
     color: aliceblue;
     font-size: 20px;
-}
-
-button {
-    background-color: rgb(38, 70, 83);
-    border-style: none;
-    /* outline: ; */
-}
-
-button:hover {
-    cursor: pointer;
-    transform: translateY(5px);
 }
 
 .jumbotron-img {
@@ -386,90 +372,6 @@ footer {
 
 .btn {
     background-color: transparent;
-}
-
-.button:hover {
-    cursor: pointer;
-}
-
-.keranjang {
-    position: absolute;
-    right:    0;
-    bottom:   0;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    background-color: white;
-    color: black;
-    border: 2px solid #e76f51; 
-    padding: 15px;
-    font-size: 15px;
-}
-
-.size {
-    position: absolute;
-    right:    0;
-    bottom:   0;
-    margin-right: 495px;
-    margin-bottom: 20px;
-    background-color: white;
-    color: black;
-    border: 2px solid #e76f51; 
-    padding: 15px;
-    font-size: 15px; 
-    
-}
-.sizeM {
-    position: absolute;
-    right:    0;
-    bottom:   0;
-    margin-right: 430px;
-    margin-bottom: 20px;
-    background-color: white;
-    color: black;
-    border: 2px solid #e76f51; 
-    padding: 15px;
-    font-size: 15px; 
-}
-.sizeL {
-    position: absolute;
-    right:    0;
-    bottom:   0;
-    margin-right:   370px;
-    margin-bottom: 20px;
-    background-color: white;
-    color: black;
-    border: 2px solid #e76f51; 
-    padding: 15px;
-    font-size: 15px; 
-}
-.sizeXL {
-    position: absolute;
-    right:    0;
-    bottom:   0;
-    margin-right: 300px;
-    margin-bottom: 20px;
-    background-color: white;
-    color: black;
-    border: 2px solid #e76f51; 
-    padding: 15px;
-    font-size: 15px; 
-}
-
-.size:active {
-    cursor: pointer;
-    background-color:rgb(38, 70, 83); 
-}
-.sizeM:active {
-    cursor: pointer;
-    background-color:rgb(38, 70, 83); 
-}
-.sizeL:active {
-    cursor: pointer;
-    background-color:rgb(38, 70, 83); 
-}
-.sizeXL:active {
-    cursor: pointer;
-    background-color:rgb(38, 70, 83); 
 }
 
 .green {
@@ -785,14 +687,14 @@ footer {
 }
 
 .project-detail {
-    margin: 50px 30px 100px;
+    /* margin: 50px 30px 100px;
     padding: 20px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px grey;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
 
 .project-img {
@@ -803,24 +705,6 @@ footer {
     width: 350px;
     height: auto;
     border-radius: 5px;
-}
-
-.project-description {
-    margin: 5px;
-}
-
-.project-description h3 {
-    margin: 0 5px 5px;
-    padding: 0;
-    font-size: 23px;
-}
-
-.project-description p {
-    margin: 20px 5px;
-    padding: 0;
-    line-height: 1.8;
-    text-indent: 40px;
-    text-align: justify;
 }
 
 p.project-link {
@@ -1092,14 +976,6 @@ p.project-link {
         max-height: 50%;
     }
 
-    .project-description h3 {
-        font-size: 2vw;
-        text-align: center;
-    }
-
-    .project-description p {
-        font-size: 2vw;
-    }
     .rocket-container {
         display: none;
     }
