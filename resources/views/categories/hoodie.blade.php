@@ -8,7 +8,7 @@
         <div class="p-8">
             <div class="flex shadow-lg rounded-lg p-6">
                 <div class="project-img">
-                    <img src="../assets/hoodie{{ $loop->iteration }}.png" alt="" />
+                    <img src="../assets/hoodie{{ $hoodie->id }}.png" alt="" />
                 </div>
                 <div class="relative w-full py-4">
                     <h3 class="text-xl font-normal">{{ $hoodie->nama }}</h3>

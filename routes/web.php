@@ -56,7 +56,6 @@ Route::middleware('auth')->group(function () {
     });
 
     // admin
-
     Route::prefix('/dashboard')->group(function () {
         Route::get('/', [AdminController::class, 'index'])->can('isAdmin', Auth::user());
 
