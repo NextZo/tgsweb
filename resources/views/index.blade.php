@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="project-container">
-                <div class="project">
+                    <div class="project">
                         <img src="assets/suit.png" alt="" width="300px" height="210px" />
                         <h4 class="project-title">
                             Jas
@@ -158,8 +158,8 @@
                             ></iframe>
                         <div class="maps-text">
                             <!-- <h3>Timedoor Coding Academy</h3>
-                            <p>Timedoor Coding Academy adalah bagian dari PT Timedoor Indonesia, <br>
-                            tempat penulis belajar konsep programming sehingga bisa membuat Blog ini.</p> -->
+                                <p>Timedoor Coding Academy adalah bagian dari PT Timedoor Indonesia, <br>
+                                tempat penulis belajar konsep programming sehingga bisa membuat Blog ini.</p> -->
                         </div>
                     </div>
                 </div>
@@ -171,12 +171,12 @@
             </div>
         </div>
         <!-- <aside>
-            <div>
-                <h3>What is Coding?</h3>
-                <iframe class="video" width="200" height="auto" src="https://www.youtube.com/embed/XMZFUnAgOqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>Coding is Not Difficult !</h3>
-                <iframe width="200" height="auto" src="https://www.youtube.com/embed/hb7Q33ysCwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </aside> -->
+                <div>
+                    <h3>What is Coding?</h3>
+                    <iframe class="video" width="200" height="auto" src="https://www.youtube.com/embed/XMZFUnAgOqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Coding is Not Difficult !</h3>
+                    <iframe width="200" height="auto" src="https://www.youtube.com/embed/hb7Q33ysCwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </aside> -->
     </div>
 @endsection
