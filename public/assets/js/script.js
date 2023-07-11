@@ -18,10 +18,10 @@ function changeText() {
 var btnLike = document.querySelector("#green");
 var btnDislike = document.querySelector("#red");
 
-if(btnLike) {
+if (btnLike) {
   btnLike.onclick = likeColor;
 }
-if(btnDislike) {
+if (btnDislike) {
   btnDislike.onclick = dislikeColor;
 }
 
@@ -154,7 +154,7 @@ var repeat = function () {
       slides[i].classList.add("active");
       buttons[i].classList.add("active");
       i++;
-      console.log(i);
+      // console.log(i);
       if (slides.length == i) {
         i = 0;
       }
@@ -185,9 +185,9 @@ AOS.init({
 
 /* ---------------------------------- Contact Modal ---------------------------------- */
 var btnSubmit = document.querySelector(".submit");
-console.log(btnSubmit);
+// console.log(btnSubmit);
 var modal = document.querySelector(".modal-container");
-console.log(modal);
+// console.log(modal);
 
 if (btnSubmit) {
   btnSubmit.addEventListener("click", function () {

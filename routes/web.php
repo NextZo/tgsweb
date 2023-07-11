@@ -25,9 +25,9 @@ Route::get('/tentang', function () {
     return view('about');
 });
 
-Route::get('/troli', function () {
-    return view('troli');
-});
+Route::get('/troli', [ControllerHandler::class, 'troli']);
+Route::post('/troli', [ControllerHandler::class, 'postTroli']);
+Route::get('/thankyou', [ControllerHandler::class, 'thanks']);
 
 // authentication
 Route::get('/masuk', [ControllerHandler::class, 'getLogin'])->name('login');

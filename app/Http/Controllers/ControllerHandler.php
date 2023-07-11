@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Transaksi;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -57,5 +58,28 @@ class ControllerHandler extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect()->route('login');
+    }
+
+    public function troli(Request $request)
+    {
+        // http://127.0.0.1:8000/troli?storage={%223%22:%22s,s,s%22,%224%22:%22xl,xl,xl%22}
+        $k = collect((array)json_decode($request->storage)); // keranjang
+        return view('troli', ['collection' => $k]);
+    }
+
+    public function postTroli(Request $request)
+    {
+        $transaksi = new Transaksi();
+        $transaksi->barang = $request->storage;
+        $transaksi->alamat = $request->alamat;
+        $transaksi->hp = $request->hp;
+        $transaksi->save();
+
+        return redirect('/thankyou');
+    }
+
+    public function thanks()
+    {
+        return view('/thanks');
     }
 }
