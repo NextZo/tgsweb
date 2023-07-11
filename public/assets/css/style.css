@@ -246,7 +246,7 @@ article {
 
 .project {
     margin: 10px 30px;
-    border-bottom: 10px solid #e76f51;
+    border-bottom: 10px solid #2563eb;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -254,7 +254,7 @@ article {
 }
 
 .project-title {
-    color: #e76f51;
+    color: #2563eb;
     font-weight: bold;
 }
 
@@ -611,12 +611,12 @@ footer {
     /* position: absolute; */
     width: 500px;
     height: auto;
-    /* left: 50%; */
+    left: 50%;
     transform: rotate(-90deg);
 }
 
 .blogger-image {
-    /* display: block; */
+    display: block; 
     position: absolute;
     width: 300px;
     height: auto;

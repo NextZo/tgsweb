@@ -8,7 +8,7 @@
         <div class="p-8">
             <div class="flex shadow-lg rounded-lg p-6">
                 <div class="project-img">
-                    <img src="../assets/jas{{ $loop->iteration }}.png" alt="" />
+                    <img src="../assets/jas{{ $jas->id }}.png" alt="" />
                 </div>
                 <div class="relative w-full py-4">
                     <h3 class="text-xl font-normal">{{ $jas->nama }}</h3>

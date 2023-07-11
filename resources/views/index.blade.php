@@ -12,7 +12,7 @@
                         E-Shop
                         <br />
                         Come and see our products! <br />
-                        <span style="color: #f4a261">LIMITED DISCOUNT!</span>
+                        LIMITED DISCOUNT!
                     </h1>
                     <div class="mini-text-flex">
                         <p class="mini-text">Discover now!</p>

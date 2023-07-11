@@ -17,12 +17,12 @@
 
     <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>E-Shop</title>
+    <title>TamaToria</title>
 </head>
 
 <body class="flex flex-col min-h-screen">
     <nav>
-        <a href="/" class="text-white font-bold text-xl">E-Shop</a>
+        <a href="/" class="text-white font-bold text-xl">TamaToria</a>
         <div class="px-6 flex gap-6 text-white">
             <a href="/kategori">Kategori</a>
             {{-- <a href="/ulasan">Review</a> --}}
@@ -43,7 +43,7 @@
     </div>
     <footer class="mt-auto bg-blue-600 py-4">
         <div class="flex items-center flex-col">
-            <h3 class="text-2xl text-white">E-shop</h3>
+            <h3 class="text-2xl text-white">TamaToria</h3>
             <div class="my-2">
                 <i class="fab fa-instagram-square"></i>
                 <i class="fab fa-twitter-square"></i>
